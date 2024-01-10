@@ -1,0 +1,46 @@
+.NewsBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.NewsBox .card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.NewsBox .card-body a{
+    margin-top: auto;
+}
+
+.NewsBox .card img{
+    max-height: 160px;
+    object-fit: contain;
+}
+
+.Loader{
+    position: fixed;
+    z-index: 9999;
+    background: #0000009e;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar.navbar-expand-lg{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.newCustomTranslate{
+    transform: translate(-101%, 4%) !important;
+}
+
+.card{
+    border: 1px solid rgb(0 0 0 / 40%);
+}
